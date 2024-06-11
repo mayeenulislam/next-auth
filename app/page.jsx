@@ -3,7 +3,7 @@ import Template from "./components/Template";
 
 const Page = () => {
   return (
-    <Template logoSrc="/assets/images/auth-logo.png">
+    <Template logoSrc="/next-auth/assets/images/auth-logo.png">
       <p className="mb-5 text-slate-500">A Template to jump-start with Auth pages using Next.js</p>
       <div className="flex gap-3">
         <Link

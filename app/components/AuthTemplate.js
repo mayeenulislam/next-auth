@@ -7,7 +7,7 @@ const AuthTemplate = ({ page, title, children }) => {
       <div className="mb-8">
         <Link href="/">
           <Image
-            src="/assets/images/auth-logo.png"
+            src="/next-auth/assets/images/auth-logo.png"
             alt="Logo of Auth"
             width={109}
             height={150}
