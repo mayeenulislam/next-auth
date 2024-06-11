@@ -1,17 +1,50 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Directory and File Structures
+
+```
+.
+├── app
+│   ├── auth
+│   │   ├── forgot-password
+│   │   │   └── page.js
+│   │   ├── login
+│   │   │   └── page.js
+│   │   ├── register
+│   │   │   └── page.js
+│   │   └── reset-password
+│   │       └── page.js
+│   ├── components
+│   │   ├── AuthTemplate.js
+│   │   └── Template.js
+│   ├── styles
+│   │   └── app.css
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.jsx
+├── public
+│   └── assets
+│       └── images
+│           └── auth-logo.png
+├── .eslintrc.json
+├── .gitignore
+├── next-env.d.ts
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── postcss.config.mjs
+├── README.md
+├── tailwind.config.js
+├── tailwind.config.ts
+└── tsconfig.json
+```
+
 ## Getting Started
 
-First, run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/mayeenulislam/next-auth.git && cd next-auth && npm install && npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
